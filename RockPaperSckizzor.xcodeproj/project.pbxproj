@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B949FB912742A9BD007E31DC /* BotResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = B949FB902742A9BD007E31DC /* BotResponse.swift */; };
 		B965AA9A273AB2EB000BB994 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B965AA99273AB2EB000BB994 /* AppDelegate.swift */; };
 		B965AA9C273AB2EB000BB994 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B965AA9B273AB2EB000BB994 /* SceneDelegate.swift */; };
 		B965AA9E273AB2EB000BB994 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B965AA9D273AB2EB000BB994 /* ViewController.swift */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B949FB902742A9BD007E31DC /* BotResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BotResponse.swift; sourceTree = "<group>"; };
 		B965AA96273AB2EB000BB994 /* RockPaperSckizzor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RockPaperSckizzor.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B965AA99273AB2EB000BB994 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B965AA9B273AB2EB000BB994 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -61,6 +63,7 @@
 				B965AA99273AB2EB000BB994 /* AppDelegate.swift */,
 				B965AA9B273AB2EB000BB994 /* SceneDelegate.swift */,
 				B965AA9D273AB2EB000BB994 /* ViewController.swift */,
+				B949FB902742A9BD007E31DC /* BotResponse.swift */,
 				B965AA9F273AB2EB000BB994 /* Main.storyboard */,
 				B965AAA5273AB2ED000BB994 /* Assets.xcassets */,
 				B965AAA7273AB2ED000BB994 /* LaunchScreen.storyboard */,
@@ -141,6 +144,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B949FB912742A9BD007E31DC /* BotResponse.swift in Sources */,
 				B965AAA4273AB2EB000BB994 /* RockPaperSckizzor.xcdatamodeld in Sources */,
 				B965AA9E273AB2EB000BB994 /* ViewController.swift in Sources */,
 				B965AA9A273AB2EB000BB994 /* AppDelegate.swift in Sources */,

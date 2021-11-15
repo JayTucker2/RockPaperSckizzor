@@ -8,9 +8,8 @@
 import UIKit
 
 class ViewController: UIViewController {
-    var rock = 0
-    var paper = 1
-    var scissors = 2
+    @IBOutlet weak var imageOutlet: UIImageView!
+    @IBOutlet weak var botImage: UIImageView!
     func bot()-> Int{
         let botRes = Int.random(in: 0...2)
         return botRes
@@ -23,7 +22,7 @@ class ViewController: UIViewController {
     @IBAction func rockBut(_ sender: Any) {
     var resp = bot()
         if resp == 0{
-            
+            botImage.image = UIImage(named: "rock")
         }
             
         }
@@ -39,3 +38,4 @@ class ViewController: UIViewController {
 
 
 
+}
