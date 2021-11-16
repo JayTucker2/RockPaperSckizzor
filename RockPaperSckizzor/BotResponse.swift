@@ -6,12 +6,9 @@
 //
 
 import Foundation
-struct botResponse{
-    var rock = 0
-    var paper = 1
-    var scissors = 2
-    
-    init() {
-        <#statements#>
+class botResponse{
+    func bot()-> Int{
+        let botRes = Int.random(in: 0...2)
+        return botRes
     }
 }
