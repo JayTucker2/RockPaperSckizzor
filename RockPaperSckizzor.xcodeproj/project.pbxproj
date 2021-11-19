@@ -15,6 +15,7 @@
 		B965AAA4273AB2EB000BB994 /* RockPaperSckizzor.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B965AAA2273AB2EB000BB994 /* RockPaperSckizzor.xcdatamodeld */; };
 		B965AAA6273AB2ED000BB994 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B965AAA5273AB2ED000BB994 /* Assets.xcassets */; };
 		B965AAA9273AB2ED000BB994 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B965AAA7273AB2ED000BB994 /* LaunchScreen.storyboard */; };
+		B98CD0B92747DE7E00BA9D31 /* TableController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B98CD0B82747DE7E00BA9D31 /* TableController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		B965AAA5273AB2ED000BB994 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B965AAA8273AB2ED000BB994 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B965AAAA273AB2ED000BB994 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B98CD0B82747DE7E00BA9D31 /* TableController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +67,7 @@
 				B965AA9D273AB2EB000BB994 /* ViewController.swift */,
 				B949FB902742A9BD007E31DC /* BotResponse.swift */,
 				B965AA9F273AB2EB000BB994 /* Main.storyboard */,
+				B98CD0B82747DE7E00BA9D31 /* TableController.swift */,
 				B965AAA5273AB2ED000BB994 /* Assets.xcassets */,
 				B965AAA7273AB2ED000BB994 /* LaunchScreen.storyboard */,
 				B965AAAA273AB2ED000BB994 /* Info.plist */,
@@ -144,6 +147,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B98CD0B92747DE7E00BA9D31 /* TableController.swift in Sources */,
 				B949FB912742A9BD007E31DC /* BotResponse.swift in Sources */,
 				B965AAA4273AB2EB000BB994 /* RockPaperSckizzor.xcdatamodeld in Sources */,
 				B965AA9E273AB2EB000BB994 /* ViewController.swift in Sources */,
